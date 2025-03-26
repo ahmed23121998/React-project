@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useSelector } from "react-redux";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { tokenContext } from "../../Context/token";
-import { signOut } from "../../services/auth";
+import { signOut } from "../../Services/Auth";
 import toast from "react-hot-toast";
 
 function NavBar() {

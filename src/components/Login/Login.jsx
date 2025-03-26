@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { signIn } from "../../services/auth";
+import { signIn } from "../../services/Auth";
 import { useNavigate } from "react-router-dom";
 import { tokenContext } from "../../Context/token";
 import toast from "react-hot-toast";
