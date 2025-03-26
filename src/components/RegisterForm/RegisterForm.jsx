@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from "react-router-dom";
-import { signUp } from "../../services/auth";
+import { signUp } from "../../services/Auth";
 
 const RegisterForm = () => {
     const {
